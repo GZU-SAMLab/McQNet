@@ -38,10 +38,15 @@ torch==1.10.2
 torchvision==0.11.3
 tqdm==4.66.1
 ``````
+# Dataset
+>download the dataset from [http://www.vision.caltech.edu/visipedia/CUB-200-2011.html](http://www.vision.caltech.edu/datasets/cub_200_2011/)
+>Caltech-UCSD Birds-200-2011 (CUB-200-2011) is an extended version of the CUB-200 dataset, with roughly double the number of images per class and new part location annotations.
 
+Number of categories: 200
+Number of images: 11,788
+Annotations per image: 15 Part Locations, 312 Binary Attributes, 1 Bounding Box
 
-
-#  Result
+# Result
 
 ![image-20231016210844054](./pictures/2.png)
 

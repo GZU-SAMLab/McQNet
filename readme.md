@@ -37,7 +37,6 @@ resnet==0.1
 torch==1.10.2
 torchvision==0.11.3
 tqdm==4.66.1
-......
 ``````
 
 

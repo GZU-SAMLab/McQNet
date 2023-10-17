@@ -50,6 +50,14 @@ Or use the Linux command line to download the dataset：
 wget http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/CUB_200_2011.tgz 
 tar -xvz CUB_200_2011.tgz
 ```
+# Code Structure
+`dataset/*`: Load the dataset and process the dataset
+
+`models/*`: Define all network models to be used
+
+`losses.py`: Calculation of losses
+
+`train_contrastive.py`: Training on the Comparison Module
 
 # Result
 

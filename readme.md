@@ -26,14 +26,17 @@
 
 > The detailed flow of meta-contrastive module.
 
-# Configuration Environment
+# Environment Requirements
 
-> Clone this repository, and build it with the following command.
+> To run the project, you need the following environment configuration
 
 ``````
-conda create --name newEnv python=3.8 -y
-conda activate newEnv
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+numpy==1.21.5
+pandas==1.2.4
+resnet==0.1
+torch==1.10.2
+torchvision==0.11.3
+tqdm==4.66.1
 ......
 ``````
 

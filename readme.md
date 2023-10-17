@@ -60,7 +60,6 @@ tar -xvz CUB_200_2011.tgz
 `train_contrastive.py`: Training on the Comparison Module
 
 # Result
-
 ![image-20231016210844054](./pictures/2.png)
 
 > 5-way few-shot classification performance (%) on the CUB, NAB, and Stanford dogs datasets. The ± denotes that the results are reported with 95% confidence intervals over 1000 test episodes. The highest average accuracy of each column is marked in bold.
